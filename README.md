@@ -18,6 +18,7 @@ gitlab-rake gitlab:check
 gitlab-rake gitlab:sidekiq:stats --trace
 gitlab-rake gitlab:sidekiq:check --trace
 gitlab-rake gitlab:sidekiq:task --trace
+
 CTL
 
 gitlab-ctl registry-garbage-collect -m
