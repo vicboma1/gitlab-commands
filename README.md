@@ -32,3 +32,8 @@ CLI
 gitlab-ctl stop && gitlab-runner stop && service docker restart && service gitlab-runner stop && sleep 10 && service gitlab-runner start && gitlab-ctl start && gitlab-runner start
 
 ```
+
+Scripts 
+```
+$ bash purge-jobs.sh "project_id" "token" "https://www.gitlab-XXX.com" "3"
+```
